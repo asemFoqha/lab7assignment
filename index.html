@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asem Alfoqha</title>
+  </head>
+  <body>
+    <span>Account Name: </span>
+    <input type="text" id="accountName" />
+    <br />
+
+    <br />
+    <span>Deposit: </span>
+    <input type="number" id="deposit" />
+    <br />
+    <br />
+    <button onclick="createAccount()">Create new account</button>
+    <br />
+    <br />
+    <textarea
+      name="accountList"
+      id="accountList"
+      cols="30"
+      rows="10"
+    ></textarea>
+    <br />
+    <br />
+    <button onclick="onDeposit()">Deposit</button>
+    <button onclick="onDebit()">Debit</button>
+    <script src="index.js"></script>
+  </body>
+</html>
